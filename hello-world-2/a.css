@@ -1,0 +1,30 @@
+h1 {
+  size:300px;
+  Color: #33adff;
+
+  font-family: 'Press Start 2P', cursive;
+
+  }
+li {
+  Color: #33adff;
+  font-family: 'Press Start 2P', cursive;
+  size:60px;
+}
+img {
+  height: 250px;
+  width: 250px;
+}
+.a {
+  object-fit: cover;
+  border: 5px dotted white;
+}
+@keyframes example {
+  from {background-color: #e6e6ff}
+  to {background-color: #ffccff;}
+}
+div {
+border: 10px solid pink;
+  animation-name: example;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  (animation-timing-function: ease-in-out;)
